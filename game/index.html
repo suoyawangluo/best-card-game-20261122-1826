@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sigil Clash — Elemental Card Duel</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ctext y='26' font-size='26'%3E%E2%9C%A6%3C/text%3E%3C/svg%3E">
+<link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+<header class="topbar">
+  <span class="brand">✦ SIGIL CLASH</span>
+  <span class="brand-sub">Elemental Card Duel · offline · original</span>
+</header>
+<main id="app" aria-live="polite"></main>
+<aside id="help" class="help" aria-label="How to play">
+  <h2>How to play</h2>
+  <p>Both duelists start at <strong>30 life</strong>. Each turn your mana refills and grows by 1, up to 10. Play cards, then End Turn — the rival plays, and the duel goes on until one sigil breaks.</p>
+  <p><strong>Elements:</strong> ▲ Ember beats ◆ Thorn, ◆ Thorn beats ● Tide, ● Tide beats ▲ Ember. ★ Storm is wild — it beats nothing and nothing beats it.</p>
+  <p><strong>Aura:</strong> the element of the last card you played is your aura. A strike whose element beats the rival aura deals <strong>+3 (SUPER)</strong>; one it loses to deals −1.</p>
+  <p><strong>Combo:</strong> the second card you play of one element in a turn gains <strong>+2 power</strong>.</p>
+  <p><strong>Cards:</strong> ⚔ Strike damages, 🛡 Guard raises shield (absorbs damage first), ⇪ Surge draws cards, ✚ Mend restores life. Empty deck? Drawing costs 2 fatigue.</p>
+  <p><strong>Keys:</strong> 1–7 play a card · Space ends the turn · Enter starts · R restarts.</p>
+</aside>
+<footer class="foot">Sigil Clash — an original card game. No network, no accounts, no tracking.</footer>
+<script type="module" src="./main.js"></script>
+</body>
+</html>
